@@ -1,0 +1,33 @@
+body {
+    --custom-background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.background-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+input {
+    display: inline-block;
+    width: 200px;
+    border: solid, black, 2px;
+    display: inline-block;
+}
